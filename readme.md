@@ -12,7 +12,7 @@
 
 ### **_Resources_**
 
-[Backend Repo]()
+[Frontend Repo](https://github.com/thomalita/tomtom-frontend)
 
 [Deployed Site](https://heroku.com)
 
@@ -20,13 +20,13 @@
 
 ### **_Description_**
 
-A Webapp that brings some of the most popular Anime Characters. Will show a detail page of their story and will include pictures.  
+A Webapp that brings some of the most popular Anime Characters from shows many people love. Will show a detail page of their story and will include pictures.  
 
 ---
 
 ### **_Technologies Used_**
 
-#### Pern Stack
+#### PERN Stack
 
 - React
 - Postgres
@@ -35,13 +35,13 @@ A Webapp that brings some of the most popular Anime Characters. Will show a deta
 - JavaScript
 - CSS
 
-#### **_Component Heirarchy Diagram:_**
+#### **_Entity-Relationship Diagram:_**
 
-![Component Heirarchy Diagram]()
+![Component Heirarchy Diagram](./images/anime_picksERD.png)
 
 ### **_Planning_**
 
-#### [Bikini Bottom Reviews Trello Board](https://trello.com/c/sZIkGFng/1-anime-picks)
+#### [Anime Picks Trello Board](https://trello.com/c/sZIkGFng/1-anime-picks)
 
 
 ### **_License_**
