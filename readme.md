@@ -37,7 +37,7 @@ A Webapp that brings some of the most popular Anime Characters from shows many p
 
 #### **_Entity-Relationship Diagram:_**
 
-![Component Heirarchy Diagram](./images/anime_picksERD.png)
+![Entity-Relationship Diagram](./images/anime_picksERD.png)
 
 ### **_Planning_**
 
