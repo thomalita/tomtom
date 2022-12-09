@@ -1,4 +1,5 @@
-'use strict';
+const middleware = require('../middleware')
+
 
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
