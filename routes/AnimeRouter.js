@@ -1,5 +1,5 @@
 const Router = require('express').Router()
-const controller = require('../controllers/ClassController')
+const controller = require('../controllers/AnimeController')
 
 Router.get('/', controller.GetAllAnime)
 Router.post('/', controller.CreateAnime)
