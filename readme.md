@@ -47,6 +47,7 @@ A Webapp that brings some of the most popular Anime Characters from shows many p
 #### Credits
 ##### [Google](www.google.com)
 ##### [Wikipedia](https://en.wikipedia.org/wiki/Attack_on_Titan)
+##### [Fandom](https://www.fandom.com/)
 
 ---
 
