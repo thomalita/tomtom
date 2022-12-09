@@ -11,14 +11,22 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       Character.belongsTo(models.Anime, {
-        as: 'anime',
         foreignKey: 'animeId'
       })
     }
   }
   Character.init({
+    animeId: {
+      type: DataTypes.INTEGER,
+      onDelete: 'CASCADE',
+      references: {
+        model: 'animes',
+        key: 'id'
+      }
+    },
+    name: DataTypes.STRING,
     image: DataTypes.STRING,
-    details: DataTypes.STRING
+    details: DataTypes.TEXT
   }, {
     sequelize,
     modelName: 'Character',

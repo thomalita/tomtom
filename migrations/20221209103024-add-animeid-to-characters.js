@@ -4,7 +4,12 @@
 module.exports = {
   async up (queryInterface, Sequelize) {
     await queryInterface.addColumn('characters', 'animeId', {
-      type: Sequelize.STRING
+      type: Sequelize.INTEGER,
+        onDelete: 'CASCADE',
+        references: {
+          model: 'animes',
+          key: 'id'
+      }
     })
   },
 

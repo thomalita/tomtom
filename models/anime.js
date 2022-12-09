@@ -1,6 +1,6 @@
 'use strict';
 const {
-  Model
+  Model, STRING
 } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
   class Anime extends Model {
@@ -11,13 +11,14 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       Anime.hasMany(models.Character, {
-        as: 'character',
-        foreignKey: 'characterId'
+        foreignKey: 'animeId'
       })
     }
   }
   Anime.init({
-    details: DataTypes.STRING
+    name: DataTypes.STRING,
+    image: DataTypes.STRING,
+    details: DataTypes.TEXT
   }, {
     sequelize,
     modelName: 'Anime',
