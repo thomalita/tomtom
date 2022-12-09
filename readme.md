@@ -43,6 +43,12 @@ A Webapp that brings some of the most popular Anime Characters from shows many p
 
 #### [Anime Picks Trello Board](https://trello.com/c/sZIkGFng/1-anime-picks)
 
+---
+#### Credits
+##### [Google](www.google.com)
+##### [Wikipedia](https://en.wikipedia.org/wiki/Attack_on_Titan)
+
+---
 
 ### **_License_**
 
