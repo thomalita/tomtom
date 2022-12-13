@@ -65,7 +65,7 @@ module.exports = {
         {
           animeId: 4,
           name: 'Naruto Uzumaki',
-          image: '',
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRetQtyjaIntXpSG7SrSZfGHreKyRhRlj7oRQ&usqp=CAU',
           details: "Is a shinobi of Konohagakure's Uzumaki clan. He became the jinchūriki of the Nine-Tails on the day of his birth — a fate that caused him to be shunned by most of Konoha throughout his childhood. After joining Team Kakashi, Naruto worked hard to gain the village's acknowledgement all the while chasing his dream to become Hokage. In the following years, through many hardships and ordeals, he became a capable ninja, regarded as a hero both by the villagers, and soon after, the rest of the world, becoming known as the Hero of the Hidden Leaf",
           createdAt: new Date(),
           updatedAt: new Date()

@@ -9,6 +9,18 @@ const GetAllCharacters = async (req, res) => {
   }
 }
 
+const GetCharacterByAnimeId = async (req, res) => {
+    try{
+        const animeId = parseInt(req.params.anime_id)
+        const character = await Character.findAll({
+            where: {animeId}
+        })
+        res.send(character)
+    } catch (error) {
+        throw error
+    }
+}
+
 const GetCharacterById = async (req, res) => {
   try {
     const character = await Character.findByPk(req.params.character_id)
@@ -52,6 +64,7 @@ const UpdateCharacter = async (req, res) => {
 
 module.exports = {
   GetAllCharacters,
+  GetCharacterByAnimeId,
   GetCharacterById,
   CreateCharacter,
   UpdateCharacter,
